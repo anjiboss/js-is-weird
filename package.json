@@ -1,0 +1,10 @@
+{
+  "name": "js-is-weird",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
