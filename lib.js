@@ -11,7 +11,7 @@ const numberToWeirdString = (n) => {
 
 /**
  * @param {string} str string to convert
- * @returns weird string array
+ * @returns {string[]} array of weird strings for each character
  */
 const encodeWeirdStringArray = (str) =>
   [...str].map((char) => {
@@ -52,4 +52,8 @@ const decodeWeirdStringToString = (str) => {
   return eval(result);
 };
 
-export { createExecuteableFunc, decodeWeirdStringToString };
+export {
+  createExecuteableFunc,
+  decodeWeirdStringToString,
+  encodeWeirdStringArray,
+};

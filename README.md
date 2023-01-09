@@ -3,14 +3,14 @@
 ## How to use
 
 ```bash
-git clone https://github.com/anjiboss/js-is-weird.git
+npx js-is-weird
+# and follow the prompt
+```
 
-cd js-is-weird
+### After run the command check newly created file to see the result
 
-npm install
-# Or
-yarn
+### Run the file you will get the decoded string
 
-# Run
-node .
+```bash
+node output.js
 ```

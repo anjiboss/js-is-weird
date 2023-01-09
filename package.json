@@ -1,10 +1,20 @@
 {
   "name": "js-is-weird",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "license": "MIT",
+  "author": {
+    "name": "Bui Tuyen",
+    "email": "nhu.nhu.face@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anjiboss/js-is-weird"
+  },
   "type": "module",
   "dependencies": {
     "inquirer": "^9.1.4"
-  }
+  },
+  "bin": "main.js",
+  "description": "A simple CLI to encode string to weird string"
 }

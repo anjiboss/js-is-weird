@@ -18,7 +18,6 @@ async function askString() {
       default: "output.js",
     },
   ]);
-  console.log(answer.stringToConvert);
   return [answer.stringToConvert, answer.outputFileName];
 }
 

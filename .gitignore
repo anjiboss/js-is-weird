@@ -1,5 +1,8 @@
 node_modules/
 
+# Output
+output.js
+
 # locks 
 yarn.lock
 yarn-error.log
