@@ -9,8 +9,14 @@ npx js-is-weird
 
 ### After run the command check newly created file to see the result
 
-### Run the file you will get the decoded string
+### Run the output file you will get the decoded string
 
 ```bash
 node output.js
+```
+
+Or you can try the [example](./example.js) file ( if you clone the repo ).
+
+```bash
+node example.js
 ```
