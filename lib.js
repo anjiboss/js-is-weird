@@ -1,11 +1,9 @@
-import fs from "fs";
-
-const one = `+!![]`;
 /**
  * translate a number to a weird string
  * @param {number} n
  */
 const numberToWeirdString = (n) => {
+  const one = `+!![]`;
   return Array.from({ length: n }, () => one).join(" + ");
 };
 
